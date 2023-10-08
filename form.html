@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2 class = "mainhead">This is a form to Open bank account</h2>
+    <hr>
+    <form action="">
+       <p>Name: <input type="text" name="name" id="" required> </p> 
+       <fieldset>
+       <legend>Gender</legend>
+       <p>
+        Male<input type="radio" name="Gender" id="Male">
+        Female<input type="radio" name="Gender" id="female">
+       </p>
+    </fieldset>
+    <p>Address: <textarea name="Address" id="addr" cols="100" rows="8"></textarea></p>
+    <p>Mail: <input type="email" name="Email" id="mail"></p>
+     <p>Date<input type="date" name="" id=""></p>
+    <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+    <hr>
+    <h3 class = "mainhead">Payment Information</h3>
+    <p>Card Type: 
+        <select name="card_type" id="card_type">
+            <option value="">Select card type</option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">Mastercard</option>
+        </select>
+    </p>
+    <p>Card Number <input type="number" name="cardNum" id="cardNum"></p>
+    <p>CVV: <input type="number" name="" id=""></p>
+    <p><input type="submit"></p>
+    </form>
+    </div>
+</body>
+</html>
